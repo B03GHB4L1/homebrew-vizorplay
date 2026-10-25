@@ -34,4 +34,3 @@ unsigned macOS app bundle, disable Gatekeeper, or guarantee that every security
 warning disappears. No Apple Developer membership is required for this route.
 
 Source and support: [VizorPlay](https://github.com/B03GHB4L1/ClipMaker).
-
