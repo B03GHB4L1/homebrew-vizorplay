@@ -1,17 +1,23 @@
-# Homebrew VizorPlay
+# Homebrew tap for VizorPlay
 
-Private staging tap for installing and updating VizorPlay on macOS.
+Install and update [VizorPlay](https://github.com/B03GHB4L1/VizorPlay) on a Mac
+with Homebrew. This repository holds packaging metadata only; the app lives in
+the main repository.
 
-This repository contains packaging metadata only. The VizorPlay application and
-its shared frontend live in the main repository.
-
-The release process will add `Formula/vizorplay.rb` after a downloadable
-VizorPlay release archive exists. Until then, this tap is intentionally not
-installable.
-
-Planned installation command:
+Install:
 
 ```sh
 brew tap B03GHB4L1/vizorplay
 brew install vizorplay
+vizorplay
 ```
+
+Update:
+
+```sh
+brew update
+brew upgrade vizorplay
+```
+
+Homebrew builds the app on your Mac, which takes a few minutes. The first launch
+sets up VizorPlay's engine and needs internet access.
